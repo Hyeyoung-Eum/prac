@@ -1,0 +1,28 @@
+*{
+    display:flex;
+    position: relative;
+    flex-direction: column;
+}
+.link-box {
+    display:flex;
+    position : relative;
+    flex-direction: column;
+}
+
+
+.link-img {
+    height:46px;
+    width:46px;
+}
+
+.box {
+    padding : 16px 44px;
+    border : 2px solid black;
+}
+
+.profile-img {
+    height: 96px;
+    width : 96px;
+    border-radius: 50%;
+
+}
