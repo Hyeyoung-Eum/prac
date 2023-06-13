@@ -1,7 +1,58 @@
-*{
+html {
+    font-family: 'Noto Sans KR', sans-serif;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing:border-box;
     display:flex;
     position: relative;
     flex-direction: column;
+}
+
+body{
+    background-color:bisque;
+    text-align : center;
+    margin : 32px auto;
+    width: 657px;
+}
+
+button {
+    background: none;
+    color: inherit;
+    border: none;
+    cursor: pointer;
+    outline: inherit;
+}
+
+ul, ol, li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+input:focus{
+    outline:none;
+}
+
+body{
+    min-width:320px
+}
+
+.title {
+    color:white;
+    font-weight: 700;
+    font-size: 20px;
+    line-height:1.5;
+    max-width: 100%;
+    
+    white-space:nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
 }
 .link-box {
     display:flex;
@@ -13,16 +64,41 @@
 .link-img {
     height:46px;
     width:46px;
+    position:absolute;
+    left: -63px;
+    top: -13px;
+    /* 억지로 맞추는 것 말고 무언가 분명 있을텐데 */
 }
 
 .box {
-    padding : 16px 44px;
+    display : flex;
+    padding : 16px 66px;
     border : 2px solid black;
+    width: 657px;
+    height: 56px;
+    position:relative;
+    flex-direction:column;
+    background-color:white;
 }
 
+.box>p {background-color: white;
+
+}
+
+.profile-img-div{
+    margin: 0px auto;
+}
 .profile-img {
     height: 96px;
     width : 96px;
     border-radius: 50%;
+}
 
+.logo{
+    color:white;
+    font-weight: 1000;
+    font-size: 30px;
+    line-height:1.5;
+    max-width: 100%;
+    white-space:nowrap;
 }
